@@ -1,0 +1,10 @@
+/home/jyo/ros2_ws/src/synexens_ros2/build/CMakeFiles/uninstall.dir
+/home/jyo/ros2_ws/src/synexens_ros2/build/CMakeFiles/synexens_ros2_uninstall.dir
+/home/jyo/ros2_ws/src/synexens_ros2/build/CMakeFiles/synexens_ros2_node.dir
+/home/jyo/ros2_ws/src/synexens_ros2/build/CMakeFiles/test.dir
+/home/jyo/ros2_ws/src/synexens_ros2/build/CMakeFiles/edit_cache.dir
+/home/jyo/ros2_ws/src/synexens_ros2/build/CMakeFiles/rebuild_cache.dir
+/home/jyo/ros2_ws/src/synexens_ros2/build/CMakeFiles/list_install_components.dir
+/home/jyo/ros2_ws/src/synexens_ros2/build/CMakeFiles/install.dir
+/home/jyo/ros2_ws/src/synexens_ros2/build/CMakeFiles/install/local.dir
+/home/jyo/ros2_ws/src/synexens_ros2/build/CMakeFiles/install/strip.dir

@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+
+<robot name="my_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <!-- <xacro:include filename="$(find zed_wrapper)/urdf/include/materials.urdf.xacro" /> -->
+    <!-- <xacro:property name="M_PI"     value="3.1415926535897931" /> -->
+
+    <link name="base_link" />
+
+    <link name="camera_base_right"/>
+    <joint name="camera_base_right_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="camera_base_right"/>
+        <!-- <origin xyz="0.5969 -0.2 0.6096" rpy="0.0 1.5707963268 0.0"/>         -->
+        <origin xyz="0.5969 -0.27305 0.6096" rpy="0.0 3.1415926535897931 0.261799"/>        
+    </joint>
+
+    <link name="camera_base_left"></link>
+    <joint name="camera_base_left_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="camera_base_left"/>
+        <origin xyz="0.5969 0.27305 0.6096" rpy="0.0 3.1415926535897931 -0.261799"/>
+    </joint>
+
+    <link name="camera1_camera_link" />
+    <joint name="zed_right_camera_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="camera1_camera_link"/>
+        <origin xyz="0.5969 0.0 1.143" rpy="0.0 0.0 0.0"/>
+    </joint>
+
+    <link name="camera2_camera_link" />
+    <joint name="zed_left_camera_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="camera2_camera_link"/>
+        <origin xyz="-0.5969 0.0 1.143" rpy="0.0 3.1415926535897931 0.0"/>
+    </joint>
+</robot>
